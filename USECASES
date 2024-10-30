@@ -1,1 +1,67 @@
 
+                     ………………………………………………………………………………………………………………………………………………………………………………………………..
+                                        MUHAMMAD SAQIB TARIQ (04072213009)
+
+UC #7 - Manage House Information
+Primary Actor: Estate Office Staff
+Stakeholders and Interests:
+1.	Estate Office Staff: Wants to efficiently manage house records.
+2.	System Administrator: Ensures data integrity and security of house information.
+Preconditions:
+•	Estate Office Staff is logged in the system.
+•	Existing house records are in the system, including details like house ID, location, and status.
+Postconditions:
+•	The house data in the system is accurately updated/maintained.
+Input/output:
+•	User name/passwords, house id  ,location, type, status are the inputs of the system.
+•	Confirmation messages, error messages and other task completion messages are the outputs of the system. 
+Main Success Scenario:	
+1.	Estate Office Staff accesses the "Manage House Information" interface.
+2.	The system displays all houses with their allocation status.
+3.	Estate Office Staff can perform the following actions:
+             Add New House:
+•	Inputs house information, including house ID, location, type, and status.
+•	Confirms the new house record is saved.
+      Update House Status:
+•	Selects a specific house and modifies the status.
+•	Confirms the change to update the record.
+Delete House:
+•	Chooses a house and confirms deletion.
+      4.   The system saves updates to the database.
+Extensions:
+•	1a. Invalid Data Entry: The system alerts the user to correct incomplete or incorrectly formatted information.
+•	1b. Duplicate House ID: If a house ID already exists, the system prompts for a unique ID.
+Special Requirements:
+•	The system should validate data formats (e.g., proper formatting of house ID).
+•	Data changes should be logged to track record modifications for security purposes.
+Frequency of occurrence: 
+       The occurrence here can be continuous.
+      ………………………………………………………………………………………………………………………………………………………………………………………………..
+UC #8 - Announce Vacancies
+Primary Actor: Estate Office Staff
+Stakeholders and Interests:
+•	Estate Office Staff: Effectively announces vacancies to faculty.
+•	Faculty Members: Interested in receiving updates on house availability.
+Preconditions:
+•	The Estate Office Staff is logged in.
+Postconditions:
+•	Eligible faculty members are notified about available vacancies.
+Input/output:
+•	User name/passwords are the inputs of the system.
+•	Confirmation messages are the outputs of the system. 
+Main Success Scenario:
+1.	Estate Office Staff selects "Announce Vacancies."
+2.	The system displays unallocated houses.
+3.	Estate Office Staff chooses vacant houses for announcement.
+4.	The system identifies eligible faculty members by grade.
+5.	Notifications are sent to eligible faculty regarding the vacancies.
+6.	Faculty members can apply for these vacancies.
+Extensions:
+5a. Multiple House Announcements: Separate notifications are sent for each vacancy.
+Special Requirements:
+•	The system must support real-time notifications to faculty, with notifications delivered within 5 seconds.
+•	Faculty eligibility criteria should be configurable and maintained by the system administrator.
+Frequency of occurrence: 
+          Depends on the availability of houses
+                  
+      ………………………………………………………………………………………………………………………………………………………………………………………………..
