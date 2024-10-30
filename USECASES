@@ -47,7 +47,7 @@ Special requirements:
 2.	Notification System: Automated email/SMS notifications for request approved.
 
  ………………………………………………………………………………………………………………………………………………………………………………………….
-UC #5: 
+UC #2: 
 
 Faculty viewing request’s status for House Allocation.
 Primary Actor:
@@ -106,7 +106,7 @@ SYSTEM SEQUENCE DIAGRAM OF ASSIGNMENT 2 USECASE :
 
 
 
-UC #6:
+UC #3:
  Faculty withdraws requests for House Maintenance. 
 Primary Actor:
 - Faculty Member
