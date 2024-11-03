@@ -1,0 +1,15 @@
+
+DATA SUTRUCTURES:
+Faculty member
+= Faculty_ID + Faculty_Name + Faculty_Grade + Seniority_Level + Application_Date + (Preferred_House)
+Available houses
+= House_ID + House_Location + House_Type + House_Status
+House allotment notice
+= Faculty_ID + Faculty_Name + House_ID + House_Location + Allotment_Date + Confirmation_Deadline
+Interest confirmation
+= Faculty_ID + Faculty_Name + House_ID + Confirmation_Status + Confirmation_Date
+Maintenance issue report
+= Faculty_ID + House_ID + Issue_Type + Issue_Description + Submission_Date + Issue_Status
+Maintenance followup
+= Request_ID + House_ID + Issue_Type + Date_Reminder + Current_Status
+
