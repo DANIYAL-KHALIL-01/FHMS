@@ -1,1 +1,152 @@
+                                           ………………………………………………………………………………………………………………………………………………………………………………………….
+                                                         DANIYAL KHALIL (04072213050)
+
+Faculty adds requests for House maintenance.
+Primary Actor:
+- Faculty Member
+Stake holders and Interests:
+1.	Faculty Members:
+Interest: To receive timely allocation of housing based on their seniority and to easily made, view and manage their housing requests. They also want to ensure that maintenance issues are resolved promptly.
+2.	Estate Office:
+Interest: To efficiently manage the allocation of houses, maintain accurate records of house information and statuses, and ensure that the allocation process is fair and transparent based on faculty seniority.
+3.	Maintenance Department:
+Interest: To receive and address maintenance requests promptly, track the fulfillment of these requests, and ensure that faculty members have a safe and comfortable living environment.
+4.	University Administration:
+Interest: To oversee the housing allocation process, ensure compliance with university policies, and maintain faculty satisfaction, which can impact retention and recruitment.
+Preconditions:
+- The faculty member must be signed up into the Faculty Housing Management System.
+Postconditions:
+- The faculty member successfully adds a request for the house maintenance.
+
+
+
+
+Inputs and Outputs:
+Inputs:
+-	Login credentials (username and password), maintenance request details (description of the problem,etc.).
+Outputs:
+-	Success message, confirmation message after submission, request ID.
+Basic Flow:
+1.	The faculty member logs into the Faculty Housing Management System.
+2.	The system validates the identity of the faculty member.
+3.	If the identity is valid, the system redirects the user to the page having multiple options related to house allocation and others.
+4.	The faculty member selects the option to make a request for house maintenance.
+5.	The system asks for necessary information that is being used further.
+6.	Faculty enters the problem with the description.
+7.	 System approves, send complaint to the maintenance department and displays the request ID and redirect user to homepage.
+Alternate Flow:
+*a). At any state if the system fails:
+1.	User can reload it, login and request recovery of prior state.
+2.	System loads/constructs the prior state.
+*b). System keeps track of users process so that user can continue it if he/she had left.
+2a). If the faculty member's identification is invalid while login, the system will display an error message to the faculty member to try logging in again.
+Frequency of occurrence:
+-it can only occur once by each of faculty whenever system announce vacancy. 
+Special requirements:
+1.	Accessibility: The system should be accessible to users with disabilities.
+2.	Notification System: Automated email/SMS notifications for request approved.
+
+ ………………………………………………………………………………………………………………………………………………………………………………………….
+UC #2: 
+
+Faculty viewing request’s status for House Allocation.
+Primary Actor:
+- Faculty Member
+Stake holders and Interests:
+1.	Faculty Members:
+Interest: To receive timely allocation of housing based on their seniority and to easily made, view and manage their housing requests. They also want to ensure that maintenance issues are resolved promptly.
+2.	Estate Office:
+Interest: To efficiently manage the allocation of houses, maintain accurate records of house information and statuses, and ensure that the allocation process is fair and transparent based on faculty seniority.
+3.	Maintenance Department:
+Interest: To receive and address maintenance requests promptly, track the fulfillment of these requests, and ensure that faculty members have a safe and comfortable living environment.
+4.	University Administration:
+Interest: To oversee the housing allocation process, ensure compliance with university policies, and maintain faculty satisfaction, which can impact retention and recruitment.
+Preconditions:
+- The faculty member must have already signed up into the Faculty Housing Management System.
+- The faculty member must have a request being made for house allocation so that he/she can view its status.
+Postconditions:
+- The faculty member successfully views the status of their house allocation requests.
+
+
+Inputs and Outputs:
+Inputs:
+Login credentials, request ID (for viewing specific allocation status).
+Outputs:
+Success message confirmation message after submission, Request status and description.
+
+Basic Flow:
+1.	The faculty member logs into the Faculty Housing Management System.
+2.	The system validates the identity of the faculty member.
+3.	If the identity is valid, the system presents multiple options, including the ability to view the request’s status.
+4.	The faculty member selects the option to view the status of their house allocation request.
+5.	The system checks if the faculty member has made a request for house allocation.
+6.	If validated, the system requests for ID of request from user.
+7.	User enters request ID.
+8.	System displays the status of the request and necessary information along with it.
+9.	The faculty member views the status of his/her requests.
+Alternate Flow:
+*a). At any state if the system fails
+3.	User can reload it, login and request recovery of prior state.
+4.	System loads/constructs the prior state.
+2a). If the faculty member's identification is invalid while login, the system will display an error message to the faculty member to try logging in again.
+5a). If the Faculty had not made any request, then the system will display an error message and send the user to the previous page. 
+6a) If Faculty want to see all the requests that were made then faculty click request history to get the list of all the requests with their related information.
+
+Frequency of occurrence:
+The frequency of occurrence can be continuous.
+Special requirements:
+-	 -NIL-
+
+SYSTEM SEQUENCE DIAGRAM OF ASSIGNMENT 2 USECASE :
+ 
+
+
+
+ ………………………………………………………………………………………………………………………………………………………………………………………….
+
+
+
+UC #3:
+ Faculty withdraws requests for House Maintenance. 
+Primary Actor:
+- Faculty Member
+Stake holders and Interests:
+1.	Faculty Members:
+Interest: To receive timely allocation of housing based on their seniority and to easily made, view and manage their housing requests. They also want to ensure that maintenance issues are resolved promptly.
+2.	Estate Office:
+Interest: To efficiently manage the allocation of houses, maintain accurate records of house information and statuses, and ensure that the allocation process is fair and transparent based on faculty seniority.
+3.	Maintenance Department:
+Interest: To receive and address maintenance requests promptly, track the fulfillment of these requests, and ensure that faculty members have a safe and comfortable living environment.
+4.	University Administration:
+Interest: To oversee the housing allocation process, ensure compliance with university policies, and maintain faculty satisfaction, which can impact retention and recruitment.
+Preconditions:
+- The faculty member must be signed up into the Faculty Housing Management System.
+- The faculty member must have a request being made for House Maintenace so that he/she can cancel it.
+Postconditions:
+- The faculty member successfully withdraws his/her house Maintenace requests.
+Inputs and Outputs:
+Inputs:
+Login credentials 
+Outputs:
+ Request list of faculty and confirmation message of the request withdrawal.
+Basic Flow:
+1.	The faculty member logs into the Faculty Housing Management System.
+2.	The system validates the identity of the faculty member.
+3.	If the identity is valid, the system presents multiple options and features.
+4.	Faculty members select the maintenance request option that is being displayed by the system.
+5.	Faculty member select the Withdraw button.
+6.	The system displays the list of the requests that are made by him/her and are still pending.
+7.	Faculty selects the request that is being withdrawn.
+8.	The system cancels the request and updates it to the maintenance office.
+
+Alternate Flow:
+*a). At any state if the system fails
+1.	User can reload it, login and request recovery of prior state.
+2.	System loads/constructs the prior state.
+2). If the faculty member's identification is invalid while login, the system will display an error message to the faculty member to try logging in again.
+5). If the Faculty had not made any request, then the system will display an error message and send the user to the previous page. 
+Frequency of occurrence:
+-	The frequency of occurrence can be continuous.
+Special Requirements:
+-	The system should ensure data integrity during request withdrawals
 
